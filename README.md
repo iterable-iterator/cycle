@@ -11,6 +11,12 @@ See [docs](https://iterable-iterator.github.io/cycle/index.html).
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
+```js
+import {cycle, ncycle} from '@iterable-iterator/cycle';
+cycle( "AB" ) ; // A B A B A B ...
+ncycle( "AB" , 3 ) ; // A B A B A B
+```
+
 [![License](https://img.shields.io/github/license/iterable-iterator/cycle.svg)](https://raw.githubusercontent.com/iterable-iterator/cycle/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/cycle.svg)](https://www.npmjs.org/package/@iterable-iterator/cycle)
 [![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/cycle/ci:test?event=push&label=tests)](https://github.com/iterable-iterator/cycle/actions/workflows/ci:test.yml?query=branch:main)
