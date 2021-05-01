@@ -1,4 +1,4 @@
-:recycle: [@iterable-iterator/cycle](https://iterable-iterator.github.io/cycle)
+:juggling_person: [@iterable-iterator/cycle](https://iterable-iterator.github.io/cycle)
 ==
 
 Iterable cycling functions for JavaScript.
