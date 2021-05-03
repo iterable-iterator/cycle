@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {next} from '@aureooms/js-itertools';
+import {next} from '@iterable-iterator/next';
 
 import {cycle} from '../../src/index.js';
 
