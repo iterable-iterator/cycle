@@ -12,6 +12,9 @@ See [docs](https://iterable-iterator.github.io/cycle/index.html).
 import {cycle, ncycle} from '@iterable-iterator/cycle';
 cycle( "AB" ) ; // A B A B A B ...
 ncycle( "AB" , 3 ) ; // A B A B A B
+
+import {chain} from '@iterable-iterator/chain';
+cycle( chain( [ 0 , 1 , 2 ] , [ 3 , 4 , 5 ] ) ) ; // 0 1 2 3 4 5 0 1 ...
 ```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/cycle.svg)](https://raw.githubusercontent.com/iterable-iterator/cycle/main/LICENSE)
