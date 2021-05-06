@@ -21,7 +21,7 @@ test('cycle', (t) => {
 
 	for (let i = 0; i < 1000; ++i) {
 		for (const [j, element] of a.entries()) {
-			t.deepEqual(next(it), element, i + '.' + j);
+			t.deepEqual(next(it), element, `${i}.${j}`);
 		}
 	}
 });
