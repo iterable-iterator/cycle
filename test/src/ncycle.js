@@ -3,7 +3,7 @@ import test from 'ava';
 import {ncycle} from '../../src/index.js';
 
 test('empty input', (t) => {
-	const it = ncycle([], 10000);
+	const it = ncycle([], 10_000);
 	t.true(it.next().done);
 });
 
