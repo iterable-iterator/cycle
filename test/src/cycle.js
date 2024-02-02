@@ -1,5 +1,4 @@
 import test from 'ava';
-
 import {next} from '@iterable-iterator/next';
 
 import {cycle} from '../../src/index.js';
