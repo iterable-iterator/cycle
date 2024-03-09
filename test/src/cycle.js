@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {next} from '@iterable-iterator/next';
 
-import {cycle} from '../../src/index.js';
+import {cycle} from '#module';
 
 test('cycle (empty)', (t) => {
 	// The empty use case is very important

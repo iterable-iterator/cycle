@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {ncycle} from '../../src/index.js';
+import {ncycle} from '#module';
 
 test('empty input', (t) => {
 	const it = ncycle([], 10_000);
