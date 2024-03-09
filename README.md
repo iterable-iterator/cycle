@@ -19,7 +19,7 @@ cycle( chain( [ 0 , 1 , 2 ] , [ 3 , 4 , 5 ] ) ) ; // 0 1 2 3 4 5 0 1 ...
 
 [![License](https://img.shields.io/github/license/iterable-iterator/cycle.svg)](https://raw.githubusercontent.com/iterable-iterator/cycle/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/cycle.svg)](https://www.npmjs.org/package/@iterable-iterator/cycle)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/cycle/ci?event=push&label=tests)](https://github.com/iterable-iterator/cycle/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/iterable-iterator/cycle/ci.yml?branch=main&event=push&label=tests)](https://github.com/iterable-iterator/cycle/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/cycle.svg)](https://github.com/iterable-iterator/cycle/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/cycle.svg)](https://github.com/iterable-iterator/cycle/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/cycle.svg)](https://www.npmjs.org/package/@iterable-iterator/cycle)
